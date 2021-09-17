@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.container {
+        max-width: 1140px;
+        margin: 0 auto;
+        } 
+.topheader {
+    background-color: #222222;
+    height: 75px;
+    
+    max-width: 1600px;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 98.04%;
+    
+}
+.logo {
+    background-image: url(img/logo.svg);
+    position: absolute;
+left: 14.44%;
+right: 82.81%;
+top: 0.47%;
+bottom: 98.54%;
+margin-top: 18px;
+margin-bottom: 19px;
+
+}
+.logolist {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.search {
+    background-image: url(img/search.svg);
+    position: absolute;
+    
+left: 19.75%;
+right: 78.63%;
+top: 0.74%;
+bottom: 98.56%;
+margin-bottom: 20px;
+margin-top: 28.21px;
+margin-left: 41px;
+background: #E8E8E8;
+}
+.leftlist {
+    display: flex;
+}
+.rightlist {
+    display: flex;
+    }
+.menu {
+    position: absolute;
+left: 75.06%;
+right: 22.94%;
+top: 0.78%;
+bottom: 98.62%;
+margin-top: 30px;
+margin-bottom: 22px;
+background: #E8E8E8;
+}
+.contacts {
+    position: absolute;
+left: 75.06%;
+right: 22.94%;
+top: 0.78%;
+bottom: 98.62%;
+margin-top: 13px;
+margin-bottom: 20px;
+margin-left: 33px;
+
+}
+.cart {
+    position: absolute;
+left: 83%;
+right: 15%;
+top: 0.68%;
+bottom: 98.56%;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 33px;
+background: #E8E8E8;
+}
+.bottomheader {
+    background-image: url(img/Background.svg);
+    
+    max-height: 764px;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+}
+.man {
+    width: 734px;
+height: 764px;
+left: 0px;
+top: 75px;
+background-image: url(img/man.svg);
+}
+.h1 {
+    width: 405px;
+height: 93.1px;
+left: 864px;
+top: 364.9px;
+background-image: url(img/BRAND.svg);
+margin-top: 290px;
+
+}
+.man2 {
+    max-width: 734px;
+max-height: 764px;
+}
