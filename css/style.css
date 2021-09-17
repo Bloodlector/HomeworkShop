@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    outline: 1px solid red;
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background: #222222;
+    height: 75px;
+    color: white
+    ;
+}
+.offer {
+    height: 765px;
+    background: #F1E4E6;
+}
+.advantages {
+    background: #222222;
+}
+.footer {
+    background: #222222;
+}
