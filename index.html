@@ -7,49 +7,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>HWShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
         <div class="wrapper header-wrap">
             <div class="header-col-1">
-                лого и поиск
+                <a class="head-logo" href="index.html"><img src="img/logo.svg" alt="Главная"></a>
+                <button class="head-search"><img src="img/search.png" alt="Поиск"></button>
             </div>
             <div class="header-col-2">
-                меню, Профиль и корзина
+                <button class="menu-but"><img src="img/menu.svg" alt="Menu"></button>
+                <a class="profile" href="#"><img src="img/contacts.svg" alt="Profile"></a>
+                <a class="cart" href="#"><img src="img/cart.svg" alt="Cart"></a>
             </div>
         </div>
     </header>
     <section class="offer">
         <div class="wrapper offer-wrap">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consectetur, dolorum a cupiditate repellat
-            aspernatur accusamus, et nihil eligendi quis, officia explicabo molestias ipsum. Itaque ad minima natus
-            optio a!
+            <h1 class="offer-title">THE BRAND <br>
+                <span class="offer-title--small">OF LUXERIOUS </span><span class="offer-title--pink">FASHION</span>
+            </h1>
         </div>
     </section>
-    <section class="categories">
+    <section class=" categories">
+        <h2 class="hidden">Категории товаров</h2>
         <div class="wrapper categories-wrap">
-            Категории товаров
+            <div class="category-item category-item--women">
+                <p class="categories-sale">30% OFF</p>
+                <p class="categories-text">FOR WOMEN</p>
+            </div>
+            <div class="category-item category-item--men">
+                <p class="categories-sale">30% OFF</p>
+                <p class="categories-text">FOR MEN</p>
+            </div>
+            <div class="category-item category-item--kids">
+                <p class="categories-sale">30% OFF</p>
+                <p class="categories-text">FOR KIDS</p>
+            </div>
+            <div class="category-item category-item--acc">
+                <p class="categories-sale">LUXIROUS & TRENDY</p>
+                <p class="categories-text">ACCESORIES</p>
+            </div>
         </div>
     </section>
     <section class="feature-products">
         <div class="wrapper feature-products-wrap">
-            популярные товары
+            <h2 class="feature-products--h2">Featured Items</h2>
+            <p class="feature-products--p">Shop for items based on what we featured in this week</p>
+            <ul class="feature-products--list">
+                <li class="feature-products--item">
+                    <img src="img/featureitem1.png" alt="featureitem1">
+                    <h3 class="feature-item-h3">ELLERY X M'O CAPSULE</h3>
+                    <p class="feature-item-p1">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p class="feature-item-p2">$52.00</p>
+                </li>
+                <li class="feature-products--item">
+                    <img src="img/featureitem2.png" alt="featureitem2">
+                    <h3 class="feature-item-h3">ELLERY X M'O CAPSULE</h3>
+                    <p class="feature-item-p1">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p class="feature-item-p2">$52.00</p>
+                </li>
+                <li class="feature-products--item">
+                    <img src="img/featureitem3.png" alt="featureitem3">
+                    <h3 class="feature-item-h3">ELLERY X M'O CAPSULE</h3>
+                    <p class="feature-item-p1">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p class="feature-item-p2">$52.00</p>
+                </li>
+                <li class="feature-products--item">
+                    <img src="img/featureitem4.png" alt="featureitem4">
+                    <h3 class="feature-item-h3">ELLERY X M'O CAPSULE</h3>
+                    <p class="feature-item-p1">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p class="feature-item-p2">$52.00</p>
+                </li>
+                <li class="feature-products--item">
+                    <img src="img/featureitem5.png" alt="featureitem5">
+                    <h3 class="feature-item-h3">ELLERY X M'O CAPSULE</h3>
+                    <p class="feature-item-p1">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p class="feature-item-p2">$52.00</p>
+                </li>
+                <li class="feature-products--item">
+                    <img src="img/featureitem6.png" alt="featureitem6">
+                    <h3 class="feature-item-h3">ELLERY X M'O CAPSULE</h3>
+                    <p class="feature-item-p1">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p class="feature-item-p2">$52.00</p>
+                </li>
+            </ul>
+            <a href="#" class="feature-center">Browse All Products</a>
         </div>
     </section>
     <section class="advantages">
         <div class="wrapper advantages-wrap">
-            преимущества
+            <div class="advantages-content">
+                <img class="adv-img" src="img/bus.svg" alt="Bus">
+                <div class="adv-h3">Free Delivery</div>
+                <div class="adv-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                    extensive models.</div>
+            </div>
+            <div class="advantages-content">
+                <img class="adv-img" src="img/discount.svg" alt="Bus">
+                <div class="adv-h3">Sales & discounts</div>
+                <div class="adv-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                    extensive models.</div>
+            </div>
+            <div class="advantages-content">
+                <img class="adv-img" src="img/crown.svg" alt="Bus">
+                <div class="adv-h3">Quality assurance</div>
+                <div class="adv-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                    extensive models.</div>
+            </div>
         </div>
     </section>
     <section class="feedback">
-        <div class="wrapper feedback-wrap">
-            обратная связь
+        <div class="feedback-trans">
+            <div class="wrapper feedback-wrap">
+                <div class="feedback-left">
+                    <img class="face" src="img/face.svg" alt="Interests">
+                    <div class="interests-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span
+                            class="interests-text--cursive">a pulvinar
+                            purus
+                            condimentum“</span></div>
+                </div>
+                <div class="feedback-form">
+                    <div class="feedback-header"><span class="subscribe">SUBSCRIBE</span> <br> FOR OUR NEWLETTER AND
+                        PROMOTION</div>
+                    <div class="form">
+                        <form action="register"><input class="register-input" type="email"
+                                value="Enter Your Email"><button class="register-but">Subscribe</button></form>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <footer class="footer">
         <div class="wrapper footer-wrap">
-            подвал сайта
+            <div class="footer-copy">&#169; 2021 Brand All Rights Reserved.</div>
+            <div class="footer-contacts">
+                <button class="footer-but"><img src="img/fb.svg" alt="Facebook"></button>
+                <button class="footer-but"><img src="img/inst.svg" alt="Instagram"></button>
+                <button class="footer-but"><img src="img/pinterest.svg" alt="Pinterest"></button>
+                <button class="footer-but"><img src="img/twitter.svg" alt="Twitter"></button>
+            </div>
         </div>
     </footer>
 </body>
