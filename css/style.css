@@ -297,6 +297,10 @@ margin-bottom: 95px;
 padding-top: 14px;
 text-decoration: none;
 }
+.feature-center:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;  
+}
 .filter {
     display: flex;
     text-align: left;
