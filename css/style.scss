@@ -1,3 +1,6 @@
+$black-color: #222222;
+$main-color: #F16D7F;
+$hover-color: #EF5B70;
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +22,7 @@
 }
 
 .header {
-    background: #222222;
+    background: $black-color;
     
 }
 .header-col-1 {
@@ -44,7 +47,7 @@
     fill: #e8e8e8;
 }
 .head-search:hover .search-svg{
-    fill: #F16D7F;
+    fill: $main-color;
 }
 .header-col-2 {
     display: flex;
@@ -56,7 +59,7 @@
     background-color: transparent;
 }
 .menu-but:hover .search-svg {
-    fill: #F16D7F;
+    fill: $main-color;
 }
 .menu-but:hover {
     cursor: pointer;
@@ -65,14 +68,14 @@
         padding-left: 33px;
 }
 .profile:hover .search-svg {
-    fill: #F16D7F;
+    fill: $main-color;
 }
 .cart {
     
     padding-left: 33px;
 }
 .cart:hover .search-svg {
-    fill: #F16D7F;
+    fill: $main-color;
 }
 .offer {
         background: #F1E4E6;
@@ -95,8 +98,8 @@ justify-content: flex-end;
     font-weight: 900;
     font-size: 48px;
     line-height: 40px;
-        color: #222222;
-       border-left: 12px solid #F16D7F; 
+        color: $black-color;
+       border-left: 12px solid $main-color; 
        padding-left: 16px;
        margin-right: 90px;
 }
@@ -106,7 +109,7 @@ justify-content: flex-end;
     line-height: 38px;
 }
 .offer-title--pink {
-    color: #F16D7F;
+    color: $main-color;
 }
 .hidden {
     position: absolute;
@@ -128,7 +131,7 @@ justify-content: flex-end;
 font-weight: normal;
 font-size: 24px;
 line-height: 29px;
-color: #F16D7F;
+color: $main-color;
 }
 .catalog-bread-box {
     display: flex;
@@ -144,7 +147,7 @@ color: #636363;
 text-decoration: none;
 }
 .catalog-bread:hover {
-    color: #F16D7F;
+    color: $main-color;
     text-decoration: underline;
 }
 
@@ -153,10 +156,10 @@ text-decoration: none;
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
-color: #F16D7F;
+color: $main-color;
 }
 .bread-arrivals:hover {
-    color: black;
+    color: $black-color;
 }
 .categories {
     padding-top: 65px;
@@ -209,11 +212,22 @@ font-weight: normal;
 line-height: 29px;
 text-align: center;
 
-color: #F16D7F;
+color: $main-color;
 }
 .cart-sec {
     min-height: 998px;
     
+}
+.registration {
+    min-height: 675px;
+}
+.registration-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+.registration-form {
+    width: 360px;
 }
 .cart-item-list {
     display: flex;
@@ -224,8 +238,9 @@ color: #F16D7F;
 .cart-feature-item {
         margin-top: 96px;
         display: flex;
-    
+    justify-content: space-between;
 }
+
 .cart-content {
     margin-left: 31px;
 }
@@ -256,7 +271,7 @@ color: #F16D7F;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
-    color: #222222;
+    color: $black-color;
     margin-bottom: 42px;
 }
 .cart-img {
@@ -276,14 +291,14 @@ font-style: normal;
 font-weight: normal;
 font-size: 22px;
 line-height: 26px;
-color: #EF5B70;
+color: $hover-color;
 }
 .cart-buttons {
     display: flex;
     justify-content: space-between;
 }
 .cart-button:hover {
-background-color: #EF5B70;
+background-color: $hover-color;
 cursor: pointer;
 }
 .cart-quantity {
@@ -320,7 +335,7 @@ font-style: normal;
 font-weight: 300;
 font-size: 16px;
 line-height: 19px;
-color: #222222;
+color: $black-color;
 }
 .cart-input {
     width: 360px;
@@ -361,7 +376,7 @@ border: 1px solid #B1B1B1;
 margin-top: 23px;
 }
 .cart-confirm:hover {
-    background-color: #EF5B70;
+    background-color: $hover-color;
     cursor: pointer;
     color: white;
     border-color: white;
@@ -379,6 +394,7 @@ margin-top: 23px;
     flex-direction: column;
     text-align: right;
 }
+
 .confirm-h3 {
     font-family: Lato;
 font-style: normal;
@@ -410,7 +426,7 @@ margin-right: 34px;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
-        color: #222222;
+        color: $black-color;
         margin-right: 34px;
 }
 .confirm-h2-pink {
@@ -419,13 +435,13 @@ font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 19px;
-color: #F16D7F;
+color: $main-color;
 
 }
 .confirm-button {
     width: 273px;
     height: 50px;
-    background-color: #F16D7F;
+    background-color: $main-color;
     margin-top: 17px;
     font-family: Lato;
 font-style: normal;
@@ -438,8 +454,8 @@ margin-right: 43px;
 }
 .confirm-button:hover {
     background-color: white;
-    color: #F16D7F;
-    border: 1px solid #F16D7F;
+    color: $main-color;
+    border: 1px solid $main-color;
 }
 .feature-products-wrap {
     text-align: center;
@@ -453,8 +469,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 30px;
 line-height: 36px;
-/* identical to box height */
-color: #222222;
+color: $black-color;
 }
 .feature-products--p {
     font-family: Lato;
@@ -510,7 +525,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
-color: #F16D7F;
+color: $main-color;
 margin-left: 17px;
 margin-top: 18px;
 }
@@ -530,7 +545,7 @@ padding-top: 14px;
 text-decoration: none;
 }
 .feature-center:hover {
-    background-color: #F16D7F;
+    background-color: $main-color;
     color: #FFFFFF;  
 }
 .filter {
@@ -566,19 +581,19 @@ border: none;
 background-color: transparent;
 }
 .sizes-h3:hover {
-    color: #F16D7F;
+    color: $main-color;
 }
 .filter-but:hover {
-    color: #F16D7F;
+    color: $main-color;
 }
 .filter-svg {
-    fill: black;
+    fill: $black-color;
 }
 .filter-but:hover .filter-svg {
-    fill: #F16D7F;
+    fill: $main-color;
 }
 .sizes-h3:hover .filter-svg {
-    fill: #F16D7F;
+    fill: $main-color;
 }
 .pagination {
     display: flex;
@@ -605,16 +620,16 @@ color: #C4C4C4;
 opacity: 0.67;
 }
 .pagination-but:hover {
-    color: #EF5B70;
+    color: $hover-color;
 }
 .toleft-svg {
-    fill: black;
+    fill: $black-color;
 }
 .pagination-but:hover .toleft-svg {
-    fill: #EF5B70;
+    fill: $hover-color;
 }
 .advantages {
-    background: #222222;
+    background: $black-color;
     min-height: 341px;
 }
 .advantages-wrap {
@@ -648,6 +663,98 @@ text-align: center;
 color: #FBFBFB;
 margin-top: 16px;
 margin-bottom: 104px;
+}
+.registration-radio {
+    display: flex;
+       margin-bottom: 33px;
+        margin-top: 31px;
+}
+.registration-radio-button {
+    margin-right: 10px;
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+color: #000000;
+}
+.registration-radio-button2 {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+color: #000000;
+}
+.registration-p {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+color: #B1B1B1;
+margin-top: 15px;
+}
+.reg-confirm {
+    width: 167px;
+    min-height: 50px;
+    background-color: $main-color;
+    color: white;
+    border: none;
+margin-top: 39px;
+}
+.reg-confirm:hover {
+    background-color: white;
+    border: 1px solid $main-color;
+    color: $main-color;
+}
+.totheright-svg {
+    fill: white;
+}
+.reg-confirm:hover .totheright-svg {
+    fill: $main-color;
+}
+.registration-adv-h3 {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.registration-adv-p {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin-top: 22px;
+}
+.registration-adv-ul {
+    list-style-type: none;
+    margin-top: 21px;
+}
+.registration-adv-li{
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 40px;
+color: #000000;
+
+}
+.liststylereg {
+    margin-right: 23px;
+}
+.torightreg {
+    margin-left: 20px;
+    }
+.registration-adv {
+    margin-left: 128px;
+        width: 652px;
 }
 .feedback {
     background-image: url("../img/feedbackback.svg");
@@ -731,14 +838,14 @@ color: #222224;;
     background-color: #bbb8b8;
 }
 .register-input:focus {
-    border: 1px solid #F16D7F;
+    border: 1px solid $main-color;
     outline: none;
 }
 .register-but {
 padding: 20px;
 border-radius: 0 27px 27px 0;
 border: none;
-background-color: #F16D7F;
+background-color: $main-color;
 color: #FFFFFF;
 font-weight: normal;
 font-size: 14px;
@@ -748,7 +855,7 @@ line-height: 17px;
     background-color: #d14252;
 }
 .footer {
-    background: #222222;
+    background: $black-color;
     
 }
 .footer-wrap {
@@ -787,6 +894,6 @@ color: #FBFBFB;
     }
 .footer-but:hover {
     color: #FFFFFF;
-    background: #F16D7F;
+    background: $main-color;
 }   
 
