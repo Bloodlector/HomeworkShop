@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,15 @@
   margin: 0 auto;
 }
 
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  left: -99999px;
+}
+
+/* Блок header */
 .header-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,6 +113,7 @@
   fill: #F16D7F;
 }
 
+/* Блок Offer(предложение) */
 .offer {
   background: #F1E4E6;
 }
@@ -146,14 +157,7 @@
   color: #F16D7F;
 }
 
-.hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  left: -99999px;
-}
-
+/* Блок Каталога */
 .catalog-title {
   background-color: #F8F3F4;
   min-height: 148px;
@@ -631,6 +635,114 @@
   border: 1px solid #F16D7F;
 }
 
+.registration-radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 33px;
+  margin-top: 31px;
+}
+
+.registration-radio-button {
+  margin-right: 10px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.registration-radio-button2 {
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.registration-p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  margin-top: 15px;
+}
+
+.reg-confirm {
+  width: 167px;
+  min-height: 50px;
+  background-color: #F16D7F;
+  color: white;
+  border: none;
+  margin-top: 39px;
+}
+
+.reg-confirm:hover {
+  background-color: white;
+  border: 1px solid #F16D7F;
+  color: #F16D7F;
+}
+
+.totheright-svg {
+  fill: white;
+}
+
+.reg-confirm:hover .totheright-svg {
+  fill: #F16D7F;
+}
+
+.registration-adv-h3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.registration-adv-p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 22px;
+}
+
+.registration-adv-ul {
+  list-style-type: none;
+  margin-top: 21px;
+}
+
+.registration-adv-li {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.liststylereg {
+  margin-right: 23px;
+}
+
+.torightreg {
+  margin-left: 20px;
+}
+
+.registration-adv {
+  margin-left: 128px;
+  width: 652px;
+}
+
 .feature-products-wrap {
   text-align: center;
   display: -webkit-box;
@@ -904,114 +1016,6 @@
   color: #FBFBFB;
   margin-top: 16px;
   margin-bottom: 104px;
-}
-
-.registration-radio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 33px;
-  margin-top: 31px;
-}
-
-.registration-radio-button {
-  margin-right: 10px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 11px;
-  line-height: 13px;
-  color: #000000;
-}
-
-.registration-radio-button2 {
-  margin-left: 20px;
-  margin-right: 10px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 11px;
-  line-height: 13px;
-  color: #000000;
-}
-
-.registration-p {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 16px;
-  color: #B1B1B1;
-  margin-top: 15px;
-}
-
-.reg-confirm {
-  width: 167px;
-  min-height: 50px;
-  background-color: #F16D7F;
-  color: white;
-  border: none;
-  margin-top: 39px;
-}
-
-.reg-confirm:hover {
-  background-color: white;
-  border: 1px solid #F16D7F;
-  color: #F16D7F;
-}
-
-.totheright-svg {
-  fill: white;
-}
-
-.reg-confirm:hover .totheright-svg {
-  fill: #F16D7F;
-}
-
-.registration-adv-h3 {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
-}
-
-.registration-adv-p {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
-  margin-top: 22px;
-}
-
-.registration-adv-ul {
-  list-style-type: none;
-  margin-top: 21px;
-}
-
-.registration-adv-li {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 40px;
-  color: #000000;
-}
-
-.liststylereg {
-  margin-right: 23px;
-}
-
-.torightreg {
-  margin-left: 20px;
-}
-
-.registration-adv {
-  margin-left: 128px;
-  width: 652px;
 }
 
 .feedback {

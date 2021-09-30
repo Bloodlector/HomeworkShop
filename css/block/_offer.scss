@@ -1,0 +1,34 @@
+.offer {
+    background: #F1E4E6;
+}
+.offer-wrap {
+height: 765px;
+background-image: url(../img/man.png);
+background-repeat: no-repeat;
+background-position: -225px;
+background-position-y: bottom;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
+
+}
+.offer-title {
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 40px;
+    color: $black-color;
+   border-left: 12px solid $main-color; 
+   padding-left: 16px;
+   margin-right: 90px;
+}
+.offer-title--small {
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+}
+.offer-title--pink {
+color: $main-color;
+}

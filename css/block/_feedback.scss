@@ -1,0 +1,98 @@
+.feedback {
+    background-image: url("../img/feedbackback.svg");
+    min-height: 448px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+}
+.feedback-trans {
+    background: rgba(244, 244, 244, 0.7); 
+}
+.feedback-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.feedback-left {
+    text-align: center;
+    padding-bottom: 126px;
+}
+.face {
+    margin-top: 97px;
+}
+.interests-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 80px;
+    color: #222224;
+    width: 400px;
+}
+.interests-text--cursive {
+    font-style: italic;
+}
+.register {
+    display: flex;
+    border-radius: 10px;
+
+}
+.feedback-header {
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 167.2%;
+/* or 40px */
+margin-top: 150px;
+text-align: center;
+color: #222224;
+}
+.subscribe {
+    font-weight: bold;
+font-size: 24px;
+}
+.register-form {
+    width: 356px;
+    display: flex;
+    margin-top: 32px;
+
+}
+.register-input {
+padding: 20px;
+width: 255px;
+border-radius: 27px 0 0 27px;
+border: none;
+background-color: #E1E1E1;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #222224;;
+}
+.register-input::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #222224;
+    opacity: 0.67;
+}
+.register-input:hover{
+    background-color: #bbb8b8;
+}
+.register-input:focus {
+    border: 1px solid $main-color;
+    outline: none;
+}
+.register-but {
+padding: 20px;
+border-radius: 0 27px 27px 0;
+border: none;
+background-color: $main-color;
+color: #FFFFFF;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+.register-but:hover {
+    background-color: #d14252;
+}

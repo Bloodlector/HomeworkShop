@@ -1,0 +1,42 @@
+.footer {
+    background: $black-color;
+    
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copy {
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+padding-top: 30px;
+padding-bottom: 30px;
+color: #FBFBFB;
+}
+.footer-contacts {
+    display: flex;
+    list-style-type: none;
+    
+}
+.footer-but {
+    background: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 7px;
+    border: 0px  transparent;
+    height: 32px;
+    width: 32px;
+    color: #000;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+.footer-but:hover {
+    color: #FFFFFF;
+    background: $main-color;
+} 
