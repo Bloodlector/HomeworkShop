@@ -843,6 +843,8 @@
           align-items: center;
   color: #C4C4C4;
   opacity: 0.67;
+  border: none;
+  background-color: transparent;
 }
 
 .pagination-but:hover {
@@ -892,7 +894,7 @@
   margin-top: 28px;
 }
 
-.adv1-text {
+.adv-text {
   font-family: Lato;
   font-style: normal;
   font-weight: 300;

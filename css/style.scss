@@ -618,6 +618,8 @@ display: flex;
   align-items: center;
 color: #C4C4C4;
 opacity: 0.67;
+border: none;
+background-color: transparent;
 }
 .pagination-but:hover {
     color: $hover-color;
