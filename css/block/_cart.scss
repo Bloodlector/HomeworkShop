@@ -1,0 +1,336 @@
+.cart-sec {
+    min-height: 998px;
+    
+}
+.registration {
+    min-height: 675px;
+}
+.registration-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+.registration-form {
+    width: 360px;
+}
+.cart-item-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+.cart-feature-item {
+        margin-top: 96px;
+        display: flex;
+    justify-content: space-between;
+}
+
+.cart-content {
+    margin-left: 31px;
+}
+.cart-header {
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-delete {
+    background-color: transparent;
+    border:  none;
+    width: 18px;
+    height: 18px;
+    margin-left: 57px;
+    margin-right: 28px;
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 40px;
+    width: 652px;
+    height: 306px;
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+}
+.cart-h3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: $black-color;
+    margin-bottom: 42px;
+}
+.cart-img {
+    background-color: #5D5D5D;
+}
+.cart-p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+.cart-price {
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+color: $hover-color;
+}
+.cart-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-button:hover {
+background-color: $hover-color;
+cursor: pointer;
+}
+.cart-quantity {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-p1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+    margin-right: 100px;
+}
+.cart-button {
+    width: 235px;
+    height: 50px;
+    border: 1px solid rgb(131, 130, 130);
+    background-color: transparent;
+
+}
+.cart-form {
+    width: 360px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 128px;
+}
+.adress-shipping {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+color: $black-color;
+}
+.cart-input {
+    width: 360px;
+    height: 45px;
+    border: 1px solid #B1B1B1;
+    margin-top: 20px;
+    padding: 20px;
+}
+.cart-input:hover {
+            background-color: #e4e4e4;
+       
+}
+.cart-input:focus {
+    border: 1px solid #000000;
+    outline: none;
+    padding: 20px;
+}
+.cart-input::placeholder {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+color: #B1B1B1;
+padding: 10px;
+}
+.cart-confirm {
+    width: 101px;
+    height: 35px;
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+color: #4A4A4A;
+background-color: transparent;
+border: 1px solid #B1B1B1;
+margin-top: 23px;
+}
+.cart-confirm:hover {
+    background-color: $hover-color;
+    cursor: pointer;
+    color: white;
+    border-color: white;
+}
+.cart-buying {
+    width: 360px;
+    height: 214px;
+    margin-top: 57px;
+    background: #F5F3F3;
+    margin-left: 128px;
+    text-align: right;
+}
+.confirm-form {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.confirm-h3 {
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+color: #4A4A4A;
+margin-right: 34px;
+}
+.confirm-h3-div {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    margin-top: 39px;
+}
+.confirm-h2-div {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    margin-top: 12px;
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 21px;
+    margin-left: 42px;
+    margin-right: 42px;
+}
+.confirm-h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+        color: $black-color;
+        margin-right: 34px;
+}
+.confirm-h2-pink {
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: $main-color;
+
+}
+.confirm-button {
+    width: 273px;
+    height: 50px;
+    background-color: $main-color;
+    margin-top: 17px;
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+border: none;
+color: #FFFFFF;
+margin-right: 43px;
+}
+.confirm-button:hover {
+    background-color: white;
+    color: $main-color;
+    border: 1px solid $main-color;
+}
+.registration-radio {
+    display: flex;
+       margin-bottom: 33px;
+        margin-top: 31px;
+}
+.registration-radio-button {
+    margin-right: 10px;
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+color: #000000;
+}
+.registration-radio-button2 {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+color: #000000;
+}
+.registration-p {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+color: #B1B1B1;
+margin-top: 15px;
+}
+.reg-confirm {
+    width: 167px;
+    min-height: 50px;
+    background-color: $main-color;
+    color: white;
+    border: none;
+margin-top: 39px;
+}
+.reg-confirm:hover {
+    background-color: white;
+    border: 1px solid $main-color;
+    color: $main-color;
+}
+.totheright-svg {
+    fill: white;
+}
+.reg-confirm:hover .totheright-svg {
+    fill: $main-color;
+}
+.registration-adv-h3 {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.registration-adv-p {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin-top: 22px;
+}
+.registration-adv-ul {
+    list-style-type: none;
+    margin-top: 21px;
+}
+.registration-adv-li{
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 40px;
+color: #000000;
+
+}
+.liststylereg {
+    margin-right: 23px;
+}
+.torightreg {
+    margin-left: 20px;
+    }
+.registration-adv {
+    margin-left: 128px;
+        width: 652px;
+}
+

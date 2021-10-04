@@ -1,0 +1,36 @@
+.advantages {
+    background: $black-color;
+    min-height: 341px;
+}
+.advantages-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.advantages-content {
+    text-align: center;
+}
+.adv-img {
+    margin-top: 103px;
+}
+.adv-h3 {
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 19.96px;
+line-height: 24px;
+/* identical to box height */
+color: #FBFBFB;
+margin-top: 28px;
+}
+.adv-text {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 13.972px;
+line-height: 17px;
+text-align: center;
+color: #FBFBFB;
+margin-top: 16px;
+margin-bottom: 104px;
+}
