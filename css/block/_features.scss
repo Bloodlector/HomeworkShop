@@ -154,6 +154,7 @@ line-height: 17px;
 color: #000000;
 transition: 0.3s;
 list-style-type: none;
+
 }
 .filter-sizes {
     width: 360px;
@@ -176,6 +177,7 @@ transition: 0.3s;
 }
 .filter-but:hover {
     color: $main-color;
+    cursor: pointer;
 }
 .filter-svg {
     fill: $black-color;
@@ -183,6 +185,7 @@ transition: 0.3s;
 }
 .filter-but:hover .filter-svg {
     fill: $main-color;
+    cursor: pointer;
 }
 .sizes-h3:hover .filter-svg {
     fill: $main-color;
@@ -216,6 +219,7 @@ transition: 0.3s;
 }
 .pagination-but:hover {
     color: $hover-color;
+    cursor: pointer;
 }
 .toleft-svg {
     transition: 0.3s;
@@ -223,4 +227,5 @@ transition: 0.3s;
 }
 .pagination-but:hover .toleft-svg {
     fill: $hover-color;
+    cursor: pointer;
 }

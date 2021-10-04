@@ -131,7 +131,7 @@
   border: none;
 }
 
-.filter::-webkit-details-marker {
+::-webkit-details-marker {
   display: none;
 }
 
@@ -139,22 +139,73 @@
   padding-left: 10px;
   -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
           box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  color: #F16D7F;
 }
 
-.filter[open] > summary {
-  color: plum;
+.filter[open] .filter-but {
+  color: #F16D7F;
+  fill: #F16D7F;
   outline: none;
-  border: none;
 }
 
 .fiter-content {
   position: absolute;
-  height: 561px;
+  min-height: 150px;
   width: 360px;
   background-color: white;
   left: 0;
   -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
           box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  z-index: 1;
+  padding: 16px;
+}
+
+.filter-list {
+  display: block;
+  list-style-type: none;
+  padding: 15px 0;
+}
+
+.filter-link {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #6F6E6E;
+}
+
+.filter-but2 {
+  width: 330px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  list-style-type: none;
+  border-left: 10px solid #F16D7F;
+  border-bottom: 1px solid #EBEBEB;
+  padding-right: 16px;
+  height: 37px;
+  padding: 11px;
+  cursor: pointer;
+}
+
+.filter-but2:hover {
+  color: #F16D7F;
+}
+
+.filter-but2[open] {
+  color: #F16D7F;
+}
+
+.filter-link:hover {
+  color: #F16D7F;
+  text-decoration: underline;
 }
 
 /* Блок Offer(предложение) */
@@ -1219,6 +1270,7 @@
 
 .filter-but:hover {
   color: #F16D7F;
+  cursor: pointer;
 }
 
 .filter-svg {
@@ -1229,6 +1281,7 @@
 
 .filter-but:hover .filter-svg {
   fill: #F16D7F;
+  cursor: pointer;
 }
 
 .sizes-h3:hover .filter-svg {
@@ -1277,6 +1330,7 @@
 
 .pagination-but:hover {
   color: #EF5B70;
+  cursor: pointer;
 }
 
 .toleft-svg {
@@ -1287,6 +1341,7 @@
 
 .pagination-but:hover .toleft-svg {
   fill: #EF5B70;
+  cursor: pointer;
 }
 
 .advantages {

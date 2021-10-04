@@ -84,23 +84,73 @@
     outline: none;
     border: none;
   }
-  .filter::-webkit-details-marker {display: none;}
+  ::-webkit-details-marker {display: none;}
   
   .filter[open] {
     padding-left: 10px;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    color: $main-color;
   }
-  .filter[open]>summary {
-    color: plum;
+  .filter[open] .filter-but {
+    color: $main-color;
+    fill: $main-color;
     outline: none;
-    border: none;
+    
+  
   }
   
   .fiter-content {
     position: absolute;
-    height: 561px;
+    min-height: 150px;
     width: 360px;
     background-color: white;
     left: 0;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    z-index: 1;
+    
+    padding: 16px;
   }
+  .filter-list {
+    display: block;
+        list-style-type: none;
+        padding: 15px 0;
+                
+  }
+  .filter-link {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #6F6E6E;
+    
+  }
+  .filter-but2 {
+    width: 330px;
+    font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+transition: 0.3s;
+list-style-type: none;
+border-left: 10px solid $main-color;
+border-bottom: 1px solid #EBEBEB;
+    padding-right: 16px;
+    height: 37px;
+    padding: 11px;
+    cursor: pointer;
+}
+.filter-but2:hover {
+    color: $main-color;
+}
+.filter-but2[open] {
+    color: $main-color;
+        
+}
+.filter-link:hover {
+    color: $main-color;
+    text-decoration: underline;
+}
