@@ -25,6 +25,7 @@ font-size: 14px;
 line-height: 17px;
 color: #636363;
 text-decoration: none;
+transition: 0.3s;
 }
 .catalog-bread:hover {
     color: $main-color;
@@ -37,6 +38,7 @@ font-weight: bold;
 font-size: 14px;
 line-height: 17px;
 color: $main-color;
+transition: 0.3s;
 }
 .bread-arrivals:hover {
     color: $black-color;

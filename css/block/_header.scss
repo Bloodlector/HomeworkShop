@@ -23,12 +23,14 @@
     background-color: transparent;
     border-color: transparent;
     border: none;
+    transition: 0.3s;
 }
 .head-search:hover {
     cursor: pointer;
 }
 .search-svg {
     fill: #e8e8e8;
+    transition: 0.3s;
 }
 .head-search:hover .search-svg{
     fill: $main-color;
@@ -41,6 +43,7 @@
     border-color: transparent;
     border: none;
     background-color: transparent;
+    transition: 0.3s;
 }
 .menu-but:hover .search-svg {
     fill: $main-color;
@@ -50,6 +53,7 @@
 }
 .profile {
         padding-left: 33px;
+        transition: 0.3s;
 }
 .profile:hover .search-svg {
     fill: $main-color;
@@ -57,7 +61,46 @@
 .cart {
     
     padding-left: 33px;
+    transition: 0.3s;
 }
 .cart:hover .search-svg {
     fill: $main-color;
 }
+// .menu-overlay {
+//     width: 232px;
+//     height: 764px;
+//     top: 75px;
+//     right: 0;
+//     // display: none;
+
+// }
+// .overlay-close {
+//     padding-left: 200px;
+// }
+.filter {
+    
+        box-sizing: border-box;
+    position: relative;
+    outline: none;
+    border: none;
+  }
+  .filter::-webkit-details-marker {display: none;}
+  
+  .filter[open] {
+    padding-left: 10px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  }
+  .filter[open]>summary {
+    color: plum;
+    outline: none;
+    border: none;
+  }
+  
+  .fiter-content {
+    position: absolute;
+    height: 561px;
+    width: 360px;
+    background-color: white;
+    left: 0;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  }
