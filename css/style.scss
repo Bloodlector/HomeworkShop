@@ -152,6 +152,7 @@ transition: 0.5s;
     transform: rotatey(360deg);
     transition: 0.5s;
     transform: scale(2) rotatey(360deg);
+    cursor: pointer;
 }
 .slider-addcart:hover .addcart-svg {
     fill: white;

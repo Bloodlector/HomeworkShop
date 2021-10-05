@@ -229,3 +229,9 @@ transition: 0.3s;
     fill: $hover-color;
     cursor: pointer;
 }
+.filter-but[open] .filter-svg {
+    transform: rotatex(180deg);
+}
+.filter-but[open] {
+    color: $main-color;
+}

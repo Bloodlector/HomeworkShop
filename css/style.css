@@ -423,6 +423,7 @@
   transition: 0.5s;
   -webkit-transform: scale(2) rotatey(360deg);
           transform: scale(2) rotatey(360deg);
+  cursor: pointer;
 }
 
 .slider-addcart:hover .addcart-svg {
@@ -704,6 +705,11 @@
   line-height: 26px;
   color: #575757;
   margin-right: 100px;
+  height: 25px;
+  width: 44px;
+  padding-left: 13px;
+  padding-bottom: 7px;
+  padding-top: 5px;
 }
 
 .cart-button {
@@ -1342,6 +1348,15 @@
 .pagination-but:hover .toleft-svg {
   fill: #EF5B70;
   cursor: pointer;
+}
+
+.filter-but[open] .filter-svg {
+  -webkit-transform: rotatex(180deg);
+          transform: rotatex(180deg);
+}
+
+.filter-but[open] {
+  color: #F16D7F;
 }
 
 .advantages {
