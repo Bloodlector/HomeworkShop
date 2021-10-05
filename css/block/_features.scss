@@ -22,7 +22,50 @@ line-height: 17px;
 color: #9F9F9F;
 margin-bottom: 18px;
 }
-
+.product-overlay {
+    transform: scale(0);
+    background-color: #3a383886;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.7s;
+}
+.feature-products--item:hover .product-overlay {
+    transform: scale(1);
+}
+.overlay {
+    width: 139px;
+    height: 44px;
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+border: 1px solid white;
+background-color: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
+}
+.overlay:hover {
+    cursor: pointer;
+    background-color: #f263769f;
+}
+.overlay:hover .overlay-svg{
+fill: white;
+}
+.overlay-svg {
+    fill: white;
+    margin-right: 10px;
+    transition: 0.3s;
+}
 .feature-products--list {
     list-style-type: none;
     display: flex;
@@ -37,6 +80,7 @@ margin-bottom: 18px;
     width: 360px;
     height: 586px;
     margin-top: 30px;
+    position: relative;
 }
 
 .feature-item-h3 {
@@ -84,10 +128,13 @@ height: 48px;
 margin-bottom: 95px;
 padding-top: 14px;
 text-decoration: none;
+transition: 0.3s;
 }
+
 .feature-center:hover {
     background-color: $main-color;
-    color: #FFFFFF;  
+    color: #FFFFFF; 
+    transform: scale(1.3); 
 }
 .filter {
     display: flex;
@@ -105,6 +152,9 @@ font-weight: 600;
 font-size: 14px;
 line-height: 17px;
 color: #000000;
+transition: 0.3s;
+list-style-type: none;
+
 }
 .filter-sizes {
     width: 360px;
@@ -120,18 +170,22 @@ color: #6F6E6E;
 margin-right: 30px;
 border: none;
 background-color: transparent;
+transition: 0.3s;
 }
 .sizes-h3:hover {
     color: $main-color;
 }
 .filter-but:hover {
     color: $main-color;
+    cursor: pointer;
 }
 .filter-svg {
     fill: $black-color;
+    transition: 0.3s;
 }
 .filter-but:hover .filter-svg {
     fill: $main-color;
+    cursor: pointer;
 }
 .sizes-h3:hover .filter-svg {
     fill: $main-color;
@@ -161,13 +215,17 @@ color: #C4C4C4;
 opacity: 0.67;
 border: none;
 background-color: transparent;
+transition: 0.3s;
 }
 .pagination-but:hover {
     color: $hover-color;
+    cursor: pointer;
 }
 .toleft-svg {
+    transition: 0.3s;
     fill: $black-color;
 }
 .pagination-but:hover .toleft-svg {
     fill: $hover-color;
+    cursor: pointer;
 }

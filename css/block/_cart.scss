@@ -84,6 +84,7 @@ color: $hover-color;
 .cart-button:hover {
 background-color: $hover-color;
 cursor: pointer;
+
 }
 .cart-quantity {
     display: flex;
@@ -103,7 +104,7 @@ cursor: pointer;
     height: 50px;
     border: 1px solid rgb(131, 130, 130);
     background-color: transparent;
-
+transition: 0.3s;
 }
 .cart-form {
     width: 360px;
@@ -130,6 +131,7 @@ color: $black-color;
 }
 .cart-input:hover {
             background-color: #e4e4e4;
+            
        
 }
 .cart-input:focus {
@@ -158,6 +160,7 @@ color: #4A4A4A;
 background-color: transparent;
 border: 1px solid #B1B1B1;
 margin-top: 23px;
+transition: 0.3s;
 }
 .cart-confirm:hover {
     background-color: $hover-color;
@@ -235,6 +238,7 @@ line-height: 19px;
 border: none;
 color: #FFFFFF;
 margin-right: 43px;
+transition: 0.3s;
 }
 .confirm-button:hover {
     background-color: white;
@@ -281,6 +285,7 @@ margin-top: 15px;
     color: white;
     border: none;
 margin-top: 39px;
+transition: 0.3s;
 }
 .reg-confirm:hover {
     background-color: white;
@@ -289,6 +294,7 @@ margin-top: 39px;
 }
 .totheright-svg {
     fill: white;
+    transition: 0.3s;
 }
 .reg-confirm:hover .totheright-svg {
     fill: $main-color;
