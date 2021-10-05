@@ -1,0 +1,134 @@
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: #F7F7F7;
+
+position: relative;
+    &-img {
+        padding-bottom: $shift;
+    }
+}
+.slider-but {
+    width: 47px;
+    height: 47px;
+    align-items: center;
+    text-align: center;
+    background: rgba(42, 42, 42, 0.15);
+    border: none;
+}
+.slider-but-svg {
+    fill: black;
+    }
+.slider-but:hover .slider-but-svg {
+        fill: $main-color;
+    }
+.slider-content {
+    padding-bottom: 128px;
+}
+.slider-img {
+    transition: 0.3s;
+}
+.slider-img:hover {
+        transform: scale(1.2);
+}
+.slider-wrap {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 600px;
+    position: relative;
+    margin-top: - $shift;
+    border: 1px solid #F7F7F7;
+    background-color: white;
+    margin-bottom: 128px;
+}
+.slider-h3 {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+color: #F16D7F;
+padding-top: 64px;
+}
+.slider-hr1 {
+    width: 63px;
+    border-color:  #EF5B70;
+    background-color: #EF5B70;
+    margin-top: 12px;
+}
+.slider-h2 {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+color: #4D4D4D;
+margin-top: 12px;
+}
+.slider-p {
+    width: 555px;
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #5E5E5E;
+margin-top: 49px;
+}
+.slider-price {
+    font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #EF5B70;
+margin-top: 32px;
+}
+.slider-hr2 {
+    width: 642px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.slider-addcart {
+    width: 212px;
+    height: 48px;
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #F26376;
+border: 1px solid#F26376;
+margin-top: 49px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.5s;
+
+
+}
+.catalog-bread:hover .filter-svg {
+    fill: #EF5B70;
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+.addcart-svg {
+    fill: #EF5B70;
+}
+.slider-addcart:hover{
+    background-color: #EF5B70;
+    color: white;
+    transform: rotatey(360deg);
+    transition: 0.5s;
+    transform: scale(2) rotatey(360deg);
+    cursor: pointer;
+}
+.slider-addcart:hover .addcart-svg {
+    fill: white;
+    
+    
+}
