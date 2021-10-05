@@ -39,6 +39,7 @@
 
 .header {
   background: #222222;
+  position: relative;
 }
 
 .header-col-1 {
@@ -206,6 +207,100 @@
 .filter-link:hover {
   color: #F16D7F;
   text-decoration: underline;
+}
+
+.main-menu {
+  background-color: white;
+  width: 235px;
+  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  padding: 40px 36px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  min-height: 763px;
+}
+
+.main-menu-list {
+  list-style: none;
+}
+
+.main-menu-submenu {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.main-menu-item {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+
+.main-menu-link {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: #6F6E6E;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.main-menu-title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.main-menu-block {
+  position: relative;
+}
+
+.main-menu-close-but {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  width: 12px;
+  height: 12px;
+  border: none;
+  background-color: transparent;
+}
+
+.main-menu-close-but-svg {
+  fill: #6F6E6E;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-menu-close-but:hover .main-menu-close-but-svg {
+  fill: #F16D7F;
+}
+
+.main-menu-close-but:hover {
+  cursor: pointer;
+}
+
+.main-menu-open {
+  display: block;
+}
+
+.main-menu-close {
+  display: none;
+}
+
+.main-menu-link:hover {
+  text-decoration: underline;
+  color: #F16D7F;
 }
 
 /* Блок Offer(предложение) */
@@ -1609,5 +1704,103 @@
 .footer-but:hover {
   color: #FFFFFF;
   background: #F16D7F;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 735px;
+  }
+  .adv-text {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+  }
+  .interests-text {
+    min-width: 650px;
+    padding-left: 0;
+  }
+  .advantages-wrap {
+    display: block;
+  }
+  .feedback-wrap {
+    display: block;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feedback-form {
+    padding-bottom: 50px;
+  }
+  .feedback-left {
+    padding-bottom: 0;
+  }
+  .register-form {
+    padding-left: 183px;
+  }
+  .offer-wrap {
+    height: 367px;
+    background-image: url(../img/mediaoffer.png);
+    background-position: -110px;
+  }
+  .category-item {
+    margin-bottom: 15px;
+  }
+  .category-item--acc {
+    margin-top: 0;
+  }
+  .offer-title {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .wrapper {
+    width: 345px;
+  }
+  .advantages-wrap {
+    display: block;
+  }
+  .adv-text {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+  }
+  .feedback-wrap {
+    display: block;
+  }
+  .offer-wrap {
+    background-image: none;
+  }
+  .advantages-wrap {
+    display: block;
+  }
+  .feedback-wrap {
+    display: block;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feedback-form {
+    padding-bottom: 50px;
+  }
+  .feedback-left {
+    padding-bottom: 0;
+  }
+  .interests-text {
+    min-width: 0;
+    padding-left: 0;
+  }
+  .register-form {
+    padding-left: 0px;
+  }
+  .footer-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
