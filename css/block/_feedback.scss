@@ -97,4 +97,8 @@ transition: 0.3s;
 }
 .register-but:hover {
     background-color: #d14252;
+    cursor: pointer;
+}
+.register-but:active {
+    transform: scale(0.9);
 }

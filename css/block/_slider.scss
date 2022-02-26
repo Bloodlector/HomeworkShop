@@ -23,6 +23,12 @@ position: relative;
 .slider-but:hover .slider-but-svg {
         fill: $main-color;
     }
+    .slider-but:hover {
+        cursor: pointer;
+    }
+    .slider-but:active {
+        transform: scale(0.9);
+    }
 .slider-content {
     padding-bottom: 128px;
 }
@@ -131,4 +137,7 @@ transition: 0.5s;
     fill: white;
     
     
+}
+.slider-addcart:active {
+    transform: scale(0.9);
 }

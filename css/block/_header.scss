@@ -17,7 +17,13 @@
     text-decoration: none;
     color: transparent;
     margin-right: 41px;
-    
+    transition: 0.3s;
+}
+.head-logo:hover {
+    transform: scale(1.2);
+}
+.head-logo:active {
+transform: scale(0.9);
 }
 .head-search {
     background-color: transparent;
@@ -27,13 +33,18 @@
 }
 .head-search:hover {
     cursor: pointer;
+    transform: scale(1.2);
 }
+.head-search:active {
+    transform: scale(0.9);
+    }
 .search-svg {
     fill: #e8e8e8;
     transition: 0.3s;
 }
 .head-search:hover .search-svg{
     fill: $main-color;
+    transform: scale(1.2);
 }
 .header-col-2 {
     display: flex;
@@ -47,17 +58,26 @@
 }
 .menu-but:hover .search-svg {
     fill: $main-color;
+    transform: scale(1.2);
 }
 .menu-but:hover {
     cursor: pointer;
+    transform: scale(1.2);
 }
+.menu-but:active {
+    transform: scale(0.9);
+    }
 .profile {
         padding-left: 33px;
         transition: 0.3s;
 }
 .profile:hover .search-svg {
     fill: $main-color;
+    transform: scale(1.2);
 }
+.profile:active {
+    transform: scale(0.9);
+    }
 .cart {
     
     padding-left: 33px;
@@ -65,7 +85,11 @@
 }
 .cart:hover .search-svg {
     fill: $main-color;
+    transform: scale(1.2);
 }
+.cart:active {
+    transform: scale(0.9);
+    }
 // .menu-overlay {
 //     width: 232px;
 //     height: 764px;
